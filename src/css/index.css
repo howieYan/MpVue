@@ -1,0 +1,757 @@
+/*home start*/
+div{
+    font-family:Avenir
+}
+.layout{
+  height: 100%;
+  background: #f5f7f9;
+  position: relative;
+  overflow: hidden;
+}
+.ivu-layout-header{
+  background-color: #70605F ;
+  height: 60px;
+  line-height: 60px;
+}
+.layout-logo{
+  width: 100px;
+  height: 30px;
+  background: #5b6270;
+  border-radius: 3px;
+  float: left;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+.ivu-menu-light{
+  padding-top: 20px;
+  height: 100%;
+  background-color: #F2F2F2;
+}
+.ivu-layout{
+  height: 100%;
+  background-color: #fff ;
+}
+.layout-nav{
+  width: 420px;
+  margin: 0 auto;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu){
+  color: #fff;
+  background: #70605F ;
+  z-index: 2;
+}
+.LayoutHeader{
+  height: 60px;
+  width: 100%
+}
+.LayoutHeaderLoginImgSize{
+  padding: 5px 10px;
+  width: 160px;
+  height: 60px;
+  float: left;
+}
+.LayoutHeaderAddRi{
+  float: right;
+    width: 85%
+}
+.LayoutHeaderPoptip{
+   /*width: 160px;*/
+   /*height: 60px;*/
+}
+.LayoutHeaderLogo{
+    width: 100%;
+    height: 100%;
+    background: url("/static/logo.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.LayoutHeaderBorder{
+  border: 1px solid #fff;
+  border-bottom: none;
+  border-top: none;
+  opacity: 0.2;
+}
+.floatRight{
+  float: right;
+}
+.floatLeft{
+  float: left;
+}
+.LayoutHeaderUser{
+  padding: 13px 20px 0 20px;
+  width: 175px;
+  height: 60px;
+  border-left: 1px solid #8c7f7f;
+  border-right: 1px solid #8c7f7f;
+ /* align-content: center;
+  justify-content: center;
+  display: grid;*/
+}
+.LayoutHeaderUserName{
+  font-family: 'Avenir-Book';
+  color: #fff;
+  font-size: 10px;
+  height: 15px;
+  line-height: 15px;
+}
+.LayoutHeaderUserNameTime{
+  height: 16px;
+  line-height: 16px;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Avenir-Heavy';
+}
+.LayoutHeaderRight{
+  /*width: 160px;*/
+  padding: 0 15px;
+  text-align: center;
+}
+.LayoutHeaderRightIcon, .LayoutHeaderRightDiv{
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.LayoutHeaderRightNickName{
+  padding-left: 8px;
+  color: #fff;
+  font-family: 'Avenir-Medium';
+  font-size: 12px;
+  align-content: center;
+  justify-content: center;
+}
+.navLeftIcon{
+  margin-top: 4px;
+  height: 22px;
+  width: 18px;
+}
+.navLeftIconText{
+  padding-left: 10px;
+  font-size: 14px;
+
+}
+.ivu-menu-vertical .ivu-menu-item, .ivu-menu-vertical .ivu-menu-submenu-title{
+  padding: 0;
+}
+.navLeftItem{
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu):after{
+  content: '';
+  display: block;
+  width: 2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #70605F;
+}
+.PoptipContent{
+    padding: 10px;
+}
+.PoptipContentTitle{
+    font-family: 'Helvetica-Bold';
+    font-size: 14px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.PoptipContentEmails{
+
+    font-size: 12px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.PoptipBorder{
+    border-bottom: 1px solid #D8D8D8;
+}
+.PoptipContentTime{
+    font-family: 'Helvetica-Oblique';
+    font-size: 10px;
+    color: #E9001C;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.PoptipContentOut{
+
+    font-size: 12px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+/*home end*/
+
+
+
+
+/*Reports start*/
+.ReportsHeader{
+  color: #000;
+  font-size: 20px;
+  padding: 20px 0 15px 0;
+  font-family: 'Helvetica-Bold';
+}
+.ivu-tabs-nav .ivu-tabs-tab-active{
+  color: #70605F ;
+}
+.ivu-tabs-nav .ivu-tabs-tab{
+  padding: 10px 16px;
+}
+/*Reports end*/
+
+
+
+
+/*SubMerchant start*/
+.SubMerchantHeader{
+  padding-top: 10px;
+  color: #878787;
+  font-size: 12px;
+}
+.SubMerchantHeaderSelect{
+  padding: 10px 0;
+
+  color: #000;
+  font-size: 12px;
+}
+.SubMerchantHeaderTime{
+  /*width: 230px;*/
+  /*border: 1px solid #d8d8d8*/
+}
+.SubMerchantHeaderButton{
+  margin: 20px 0;
+  display: inline-block;
+}
+.SubMerchantHeaderButtonItem{
+  padding: 0 20px 0 0;
+}
+.SubMerchantHeaderButtonItemSize{
+
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  outline: none;
+  /*border: none;*/
+  border: 1px solid #BBBBBB;
+  border-radius: 2px;
+  padding: 8px 20px;
+  background: #f0f7fe;
+}
+.SubMerchantHeaderButtonItemSizeActive{
+  border: 1px solid #0275EC;
+  color: #0275EC;
+}
+.SubMerchantHeaderDownloadAll{
+  padding: 20px 0;
+}
+.SubMerchantHeaderDownloadAllButton{
+  border: 1px solid #0275ec;
+  border-radius: 2px;
+  color: #0275ec;
+  background: #f0f7fe;
+}
+.SubMerchantHeaderDownloadAllButton:hover{
+    border-color: #409eff;
+    color: #409eff;
+}
+.SubMerchantHeaderTable{
+}
+.SubMerchantHeaderTable {
+  /*height: 300px;*/
+  /*overflow: hidden;*/
+}
+.tableHover{
+
+}
+.tableHover tbody{
+  /*height: 260px;*/
+  overflow: auto;
+}
+table {
+  width: 100%;
+  padding: 0;
+  display: grid;
+  border-collapse: collapse;
+  border-spacing: 0;
+  /*height: 300px;*/
+  margin: 0 auto;
+  border-left: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+}
+table thead, table tbody{
+   width: 100%;
+}
+table th{
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background-color: #f8f8f9;
+  letter-spacing: 1px;
+  text-align: left;
+}
+table tr{
+  display: inline-table;
+  width: 100%;
+  border-bottom: 1px solid #d8d8d8;
+
+}
+table.tableHover td {
+  height: 40px;
+  line-height: 40px;
+}
+
+th {
+  font-weight: bold;
+}
+.SubMerchantPage{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+    /*position:relative*/
+}
+.SubMerchantAction{
+  width: 120px;
+  border-left: 1px solid #d8d8d8;
+  padding-left: 10px;
+}
+.SubMerchantDate{
+    width: 100px;
+    padding-left: 18px;
+}
+.tableHeaderLeftIcon{
+  color: #000;
+    /*position: relative;*/
+}
+/*SubMerchant end*/
+
+
+
+
+/*Login start*/
+.login{
+    height: 100%;
+    /*background: #6E605F;*/
+    width: 100%;
+    /*text-align: center;*/
+    margin: 0 auto;
+    background: url("/static/MP_Bg_Image.jpeg") no-repeat center;
+    background-size: auto;
+    /*display: flex;*/
+    /*align-content: center;*/
+    /*justify-content: center;*/
+}
+.admin{
+    /*position: fixed;*/
+    /*z-index: 100;*/
+    width: 360px;
+    height: 100%;
+    position: relative;
+    display: table;
+    margin: 0 auto;
+}
+.adminStyle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.loginTitleText{
+    font-family: 'KrungsriCondensed';
+    font-size: 30px;
+    color: #6F5F5E;
+}
+.adminCardLogin{
+    left: 50px;
+    position: fixed;
+    z-index: 10;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+    /*padding-top: 100px;*/
+}
+.adminCardLoginImg{
+    width: 100px;
+}
+.adminCard{
+    margin-top: 20px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 2px -2px 4px 0 rgba(0,0,0,0.14);
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.adminCardButton{
+    height: 50px;
+    width: 100%;
+    outline:none;
+    border: none;
+    background: #70605F;
+    border-radius: 2px;
+
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.adminCardRight{
+    text-align: right;
+
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.adminCardRight a{
+    font-size: 14px;
+    color: #878787;
+    text-decoration: underline
+}
+/*Login end */
+
+
+/*Modal start*/
+.modalClose{
+    z-index: 1;
+    position: absolute;
+    color: #979797;
+    right: 8px;
+    top: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3);
+    outline: 0;
+    z-index: 100;
+}
+.ModalSize{
+    width: 550px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    outline: 0;
+    top: 35%;
+}
+.ModalContent{
+    position: relative;
+    height: 300px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 6px;
+    background-clip: padding-box;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+.ModalTitle{
+    padding-top: 37px;
+    font-family: 'Helvetica-Bold';
+    font-size: 24px;
+    color: #131313;
+    letter-spacing: 0;
+    text-align: center;
+}
+.ModalContentPadd{
+    padding: 50px;
+}
+.ModalContentTelephone{
+    width: 40px;
+    height: 40px;
+}
+.ModalContentTelephoneText{
+    padding-left: 22px;
+    height: 40px;
+    line-height: 40px;
+
+    font-size: 15px;
+    color: #131313;
+    letter-spacing: 0;
+}
+.ModalContentTelephoneText b{
+    font-family: 'Helvetica-BoldOblique';
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+.ModalContentEmail{
+    padding-top: 20px;
+}
+/*Modal end */
+
+
+
+/*Pass start*/
+.ForgotPasswordCard{
+    /*padding-top: 100px;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+.ForgotPasswordCardSize{
+    /*height: 300px;*/
+    width: 430px;
+    margin: 0 auto;
+}
+.ForgotPasswordTitle{
+    text-align: center;
+    font-family: 'Helvetica-Bold';
+    font-size: 24px;
+    color: #000000;
+}
+.ForgotPasswordText{
+    margin-top: 50px;
+
+    font-size: 14px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.ForgotPasswordInput {
+     padding-top: 10px;
+}
+.ForgotPasswordInputBg{
+    padding-top: 10px;
+}
+.ForgotPasswordRightText{
+    padding-top: 10px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 14px;
+
+}
+.ForgotPasswordRightText a{
+
+    font-size: 12px;
+    color: #878787;
+    text-decoration: underline
+}
+.ForgotPasswordContentButton{
+    margin: 10px 50px;
+    background: #bbb;
+
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    border-radius: 2px;
+    height: 50px;
+    cursor: not-allowed;
+    line-height: 50px;
+}
+.ForgotPasswordContentButtonis{
+    margin: 10px 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #70605F;
+    text-align: center;
+    cursor:pointer;
+
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    border-radius: 2px;
+}
+/*Pass end */
+
+
+
+
+/*code start */
+.ForgotPasswordCodeCard{
+    display: table-cell;
+    vertical-align: middle;
+}
+.ForgotPasswordCardSize{
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: -100px;*/
+}
+.ForgotPasswordTitle{
+    text-align: center;
+    font-family: Helvetica-Bold;
+    font-size: 24px;
+    color: #000000;
+}
+.ForgotPasswordText{
+    margin-top: 50px;
+
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #878787;
+    line-height: 18px;
+}
+.ForgotPasswordInput{
+    padding-top: 10px;
+}
+.ForgotPasswordCodeRightText{
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14px;
+
+}
+.ForgotPasswordCodeRightText a{
+
+    font-size: 12px;
+    color: #878787;
+    text-decoration: underline
+}
+.ForgotPasswordContentButtonCode{
+    margin: 25px 50px;
+    background: #bbb;
+
+    font-size: 18px;
+    cursor: not-allowed;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    border-radius: 2px;
+    height: 50px;
+    line-height: 50px;
+}
+.ForgotPasswordContentButtonIsCode{
+    margin: 25px 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #70605F;
+    text-align: center;
+
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 0;
+    border-radius: 2px;
+}
+.ForgotPasswordCodeButtonCode{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #878787;
+    border-radius: 2px;
+}
+/*code end */
+
+
+
+
+/*NewPass start */
+.ForgotNewPasswordText{
+    background: #F7F7F7;
+    padding: 18px 15px;
+}
+.Keypress{
+    padding: 20px 0;
+}
+.KeypresCrossImg{
+    margin-top: 2px;
+    width: 18px;
+    height: 18px;
+}
+.KeypresCrossHei{
+    height: 20px;
+    line-height: 20px;
+}
+.KeypresCrossSpan{
+    padding-top: 2px;
+    height: 20px;
+    line-height: 20px;
+}
+.KeypresCrossSpanActiver{
+    color: #399F23;
+    padding-top: 2px;
+    height: 20px;
+    line-height: 20px;
+}
+.onClassCursor{
+    cursor:pointer
+}
+.SubMerchantHeaderButtonItemSize:hover{
+    border-color: #409EFF;
+    color: #409EFF;
+}
+.ForgotPasswordCodeButtonCode:hover{
+    border-color: #57a3f3;
+    color: #57a3f3;
+}
+a:hover{
+    color: #57a3f3;
+}
+.ForgotPasswordButton:hover{
+    border-color: #57a3f3;
+    color: #57a3f3;
+}
+.ForgotPasswordContentButtonIsCode:hover{
+    border-color: #57a3f3;
+    color: #57a3f3;
+}
+.navLeftItem:hover{
+    color: #57a3f3;
+}
+/*NewPass end */
+.demo-spin-icon-load{
+    animation: ani-demo-spin 1s linear infinite;
+}
+@keyframes ani-demo-spin {
+    from { transform: rotate(0deg);}
+    50%  { transform: rotate(180deg);}
+    to   { transform: rotate(360deg);}
+}
+.disabled{
+    opacity: .5;
+    color: #fff;
+    cursor: not-allowed;
+}
+.disabled:hover{
+    color: #57a3f3;
+}
+.tableThCenter{
+    text-align: center;
+}
+.demoDateModeHover{
+    position: relative;
+}
+.demoDateMode{
+    width: 366px;
+    background: #000;
+    border-radius: 4px;
+}
+.triangle_border_down{
+    width:0;
+    height:0;
+    border-width:10px 10px 0;
+    border-style:solid;
+    border-color:#000 transparent transparent;
+    bottom: 0;
+    left: 50px;
+    /*margin: 44px 0 0 50px;*/
+    position:relative;
+}
+.iconQuestion{
+    display: -webkit-inline-box;
+    background: url("/static/ico-question.png") no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    top: 13px;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+.demoDateMode .text{
+    /*font-family: Helvetica;*/
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    letter-spacing: 0;
+}
+.TableWidth{
+    width: 35%;
+}
